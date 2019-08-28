@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: 05_spring_boot_static_resource2
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: asus
+Implementation-Vendor-Id: com.etjava
+Build-Jdk: 1.8.0_221
+Implementation-URL: http://projects.spring.io/spring-boot/05_spring_bo
+ ot_static_resource2/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
