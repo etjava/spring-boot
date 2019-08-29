@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+<title>thymeleaf demo</title>
+</head>
+<body>
+	<span th:text="HELLO"></span>
+	<hr />
+	<span th:text="${msg}"></span>
+	<hr />
+	<input type="text" name="username" th:value="${msg}" />
+	<hr/>
+	<span th:text="${#strings.isEmpty(msg)}"></span>
+	<hr/>
+	<span th:text="${#strings.contains(msg,'123456')}"></span>
+	<hr/>
+	<span th:text="${#strings.contains(msg,'Hello')}"></span>
+	<hr/>
+	<span th:text="${#strings.startsWith(msg,'Hello')}"></span>
+	<hr/>
+	<span th:text="${#strings.endsWith(msg,'f')}"></span>
+	<hr/>
+	<span th:text="${#strings.indexOf(msg,'H')}"></span>
+	<hr/>
+	<span th:text="${#strings.substring(msg,0,5)}"></span>
+	<hr/>
+	<span th:text="${#strings.toUpperCase(msg)}"></span>
+	<span th:text="${#strings.toLowerCase(msg)}"></span>
+</body>
+</html>
