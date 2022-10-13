@@ -1,0 +1,10 @@
+server:
+ port: 8081
+ context-path: /etjava
+spring:
+ datasource:
+   username: root
+   password: Karen@1234
+   url: jdbc:mysql://192.168.199.108:3306/db_springboot?characterEncoding=utf8
+
+name: dev
